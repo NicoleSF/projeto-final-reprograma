@@ -1,0 +1,22 @@
+{
+  "name": "projeto-final-reprograma",
+  "version": "1.0.0",
+  "description": "projeto sobre doação de material escolar",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoleSF/projeto-final-reprograma.git"
+  },
+  "author": "nicole-fagundes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoleSF/projeto-final-reprograma/issues"
+  },
+  "homepage": "https://github.com/NicoleSF/projeto-final-reprograma#readme",
+  "devDependencies": {
+    "jest": "^29.6.4"
+  }
+}
