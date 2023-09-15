@@ -71,6 +71,6 @@ Todo meu agradecimento à equipe do Reprograma e às colegas de turma pelas viv�
 ## 😊 Autora
 <table>
     <tr>
-        <td align="center><img style="border-radius: 50%" src="https://avatars.githubusercontent.com/u/70037054?v=4" width="100px" alt="imagem da autora"/><br /><sub><b>Nicole Fagundes</b></sub></td>
+        <td align="center><img style="border-radius: 50%" src="/images/nicole.jpg" width="100px" alt="imagem da autora"/><br /><sub><b>Nicole Fagundes</b></sub></td>
     </tr>
 </table>
