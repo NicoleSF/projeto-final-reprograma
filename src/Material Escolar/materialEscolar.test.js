@@ -2,13 +2,12 @@ const  MaterialEscolar = require('./materialEscolar');
 
 describe("classe Material Escolar", () => {
     var material1;
-    var material2;
 
     beforeEach(() => {
         material1 = new MaterialEscolar(1, "lápis", 3, "geral", "adulto e criança");
     })
 
-    test("deverá lançar o erro 'Dados inválidos' quanto tentar instanciar a classe sem uma das informações", () => {
+    test("deverá mostrar os dados como undefined quando tentar instanciar a classe sem uma das informações", () => {
         const result = new MaterialEscolar();
         
         expect(result).toEqual({"categoria": undefined, "id": undefined, "nome": undefined, "perfil": undefined, "quantidade": undefined}); 
@@ -22,8 +21,6 @@ describe("classe Material Escolar", () => {
         expect(material1.categoria).toBe("geral");
         expect(material1.perfil).toBe("adulto e criança");
     }) 
-
-    
 
 
     describe("função removerMaterialEscolar", () => {

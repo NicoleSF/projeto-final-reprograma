@@ -7,9 +7,9 @@ describe("classe Beneficiario", () => {
     var beneficiario4;
 
     beforeEach(() => {
-        beneficiario = new Beneficiario("nicole", 11, "025", "rua 2", "5123");
-        beneficiario2 = new Beneficiario("joana", 14, "026", "rua 3", "5125");
-        beneficiario3 = new Beneficiario("maria", 24, "027", "rua 4", "5126");
+        beneficiario = new Beneficiario("Flávia", 11, "12345678911", "Rua das Amoras", "51123456789");
+        beneficiario2 = new Beneficiario("Joana", 14, "78945612378", "Rua das Cerejeiras", "51254578965");
+        beneficiario3 = new Beneficiario("Maria", 24, "14785236974", "Rua das Melancias", "51262354897");
         beneficiario4 = new Beneficiario();
     })
 
@@ -33,11 +33,19 @@ describe("classe Beneficiario", () => {
             const result = beneficiario4.faixaEtaria();
             expect(result).toBe("Digite uma idade válida");
         })
+
+        test("deverá retornar o endereco através do get", () => {
+            expect(beneficiario.endereco).toBe("Rua das Amoras");
+        })
+
+        test("deverá retornar o telefone através do get", () => {
+            expect(beneficiario.telefone).toBe("51123456789");
+        })
     })
 
     describe("função removerBeneficiario", () => {
         test("deverá retornar a frase de removido com sucesso", () => {
-            const result = beneficiario.removerBeneficiario("025");
+            const result = beneficiario.removerBeneficiario("12345678911");
             expect(result).toBe("Beneficiário removido com sucesso!");
         })
 

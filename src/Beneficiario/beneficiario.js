@@ -20,16 +20,9 @@ class Beneficiario{
         return this.#cpf;
     }
 
-    set endereco(novoEndereco){
-        this.#endereco = novoEndereco;
-    }
 
     get endereco(){
         return this.#endereco;
-    }
-
-    set telefone(novoTelefone){
-        this.#telefone = novoTelefone;
     }
 
     get telefone(){
@@ -64,11 +57,12 @@ class Beneficiario{
 
 module.exports = Beneficiario;
 
-const beneficiario = new Beneficiario("nicole", 14, "025", "rua 2", "5123");
-const beneficiario2 = new Beneficiario("josé", "025", "rua 2", "5123");
+// const beneficiario = new Beneficiario("nicole", 14, "025", "rua 2", "5123");
+// console.log(beneficiario.cpf);
+// const beneficiario2 = new Beneficiario("josé", "025", "rua 2", "5123");
 // console.log(beneficiario);
 // console.log(Beneficiario.listaBeneficiario);
 // console.log(beneficiario2.faixaEtaria());
-console.log(Beneficiario.listaBeneficiario);
-console.log(beneficiario.removerBeneficiario());
-console.log(Beneficiario.listaBeneficiario);
+// console.log(Beneficiario.listaBeneficiario);
+// console.log(beneficiario.removerBeneficiario());
+// console.log(Beneficiario.listaBeneficiario);

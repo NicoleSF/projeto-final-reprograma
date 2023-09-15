@@ -43,5 +43,6 @@ module.exports = MaterialEscolar;
 // material.removerMaterialEscolar(2);
 // console.log(MaterialEscolar.listaMaterialEscolar);
 
-// const material = new MaterialEscolar(1);
+// const material = new MaterialEscolar(1, "lápis", 3, "adulto e criança");
 // console.log(material);
+// console.log(MaterialEscolar.listaMaterialEscolar);
