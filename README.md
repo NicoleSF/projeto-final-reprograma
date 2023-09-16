@@ -31,6 +31,16 @@ Para rodar as instâncias criadas de cada classe, digite em seu terminal:
 node index.js
 ```
 
+## 📋 Arquitetura do Projeto
+
+O projeto possui uma pasta src que contém a estrutura do desenvolvimento, conforme é visto na imagem abaixo:
+
+![Imagem2](images/arquitetura_projeto.png)
+
+E cada classe tem dois arquivos: o .js com a construção das informações e o test.js com os testes unitários:
+
+![Image3](images/arquitetura_pastas.png)
+
 ## ✏️ Testes
 
 Para rodar os testes da aplicação, digite em seu terminal:
@@ -43,15 +53,6 @@ Abaixo, até o presente momento, a cobertura de testes se encontra desta forma:
 
 ![Imagem1](images/coverage-projeto-final.png)
 
-## 📋 Arquitetura do Projeto
-
-O projeto possui uma pasta src que contém a estrutura do desenvolvimento, conforme é visto na imagem abaixo:
-
-![Imagem2](images/arquitetura_projeto.png)
-
-E cada classe tem dois arquivos: o .js com a construção das informações e o test.js com os testes unitários:
-
-![Image3](images/arquitetura_pastas.png)
 
 ## ✅ Futuras Funcionalidades
 
