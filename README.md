@@ -68,9 +68,3 @@ Todo meu agradecimento à equipe do Reprograma e às colegas de turma pelas viv�
 - **Github:** [@NicoleSF](https://github.com/NicoleSF)
 - **Linkedin:** [Nicole Fagundes](https://www.linkedin.com/in/nicole-siqueira-fagundes/)
 
-## 😊 Autora
-<table>
-    <tr>
-        <td align="center><img style="border-radius: 50%" src="/images/nicole.jpg" width="100px" alt="imagem da autora"/><br /><sub><b>Nicole Fagundes</b></sub></td>
-    </tr>
-</table>
