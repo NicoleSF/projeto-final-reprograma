@@ -35,14 +35,3 @@ class MaterialEscolar {
 }
 
 module.exports = MaterialEscolar;
-
-// const material = new MaterialEscolar(1, "lápis", 3, "geral", "adulto e criança");
-// const material2 = new MaterialEscolar(2, "borracha", 4, "geral", "adulto e criança");
-// const material3 = new MaterialEscolar(3, "caderno", 5, "geral", "adulto e criança");
-// console.log(MaterialEscolar.listaMaterialEscolar);
-// material.removerMaterialEscolar(2);
-// console.log(MaterialEscolar.listaMaterialEscolar);
-
-// const material = new MaterialEscolar(1, "lápis", 3, "adulto e criança");
-// console.log(material);
-// console.log(MaterialEscolar.listaMaterialEscolar);

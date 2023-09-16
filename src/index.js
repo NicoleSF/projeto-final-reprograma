@@ -1,9 +1,15 @@
+
+const Beneficiario = require("./Beneficiario/beneficiario");
+const Doacao = require("./Doacao/doacao");
+const MaterialEscolar = require("./Material Escolar/materialEscolar");
+
 // MATERIALESCOLAR.JS
 
 const material = new MaterialEscolar(1, "lápis", 3, "geral", "adulto e criança");
 console.log(MaterialEscolar.listaMaterialEscolar);
 material.removerMaterialEscolar(2);
 console.log(MaterialEscolar.listaMaterialEscolar);
+
 
 // BENEFICIARIO.JS
 

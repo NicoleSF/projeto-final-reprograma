@@ -30,9 +30,3 @@ class Doacao {
 }
 
 module.exports = Doacao;
-
-const material = new MaterialEscolar(1, "lápis", 3, "geral", "adulto e criança");
-const beneficiario1 = new Beneficiario("nicole", 14, "025", "rua 2", "5123");
-const doacao = new Doacao("", material, "14/09/2024");
-// console.log(doacao);
-console.log(Doacao.listaDoacoes);
