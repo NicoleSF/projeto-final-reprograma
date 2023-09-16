@@ -41,6 +41,18 @@ E cada classe tem dois arquivos: o .js com a construção das informações e o 
 
 ![Image3](images/arquitetura_pastas.png)
 
+## Classe MaterialEscolar.js
+
+![Image4](images/classe_material_escolar.png)
+
+## Classe Beneficiario.js
+
+![Image5](images/classe_beneficiario.png)
+
+## Classe Doacao.js
+
+![Image6](images/classe_doacao.png)
+
 ## ✏️ Testes
 
 Para rodar os testes da aplicação, digite em seu terminal:
